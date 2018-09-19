@@ -1,0 +1,13 @@
+3 variables 3 data types 3 functions
+
+public int apples;
+private float movespeed;
+public variables something();
+prive bool Grounded;
+
+apples = 3;
+if(something (KeyCode.Space)&& Grounded){
+	Jump();
+}
+
+"honestly i dont know what im doing but when im looking at code i understand on whats going on" 
