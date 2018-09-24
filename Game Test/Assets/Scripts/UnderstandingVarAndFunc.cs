@@ -9,17 +9,15 @@ public class UnderstandingVarAndFunc : MonoBehaviour {
 	access modifier(public/private) type(int/float/bool) name of
 	variable(any name) and or a value (whole numbers) */
 	public int Abby = 5;	//int means whole number (7 8 9)
-	public double Buck;		//double means numbers with a fractional part (5.7 6.3 9.9)
+	public float Buck;		//float means numbers with a fractional part (5.7 6.3 9.9)
 	private bool chad;		//bool means true or false
 
 	// Use this for initialization
 	/*functions go in either void start or void update*/
 	void Start () {
 
-	Buck = 4.5;
-
+	Buck = 4.5f;
 	print("How old is Buck");
-	print("Buck is %f\n", Buck);
 
 	}
 	
