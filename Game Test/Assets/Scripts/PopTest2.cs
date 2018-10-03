@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PopTest2 : MonoBehaviour {
 
-	public int Apple = 2;
-	public int Orange = 7;
-	public int AO;
+	public int Apple;
+	public int Orange;
+	private int AO;
 	
 
 	// Use this for initialization
