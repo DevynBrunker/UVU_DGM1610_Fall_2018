@@ -18,7 +18,8 @@ public class UnderstandingVarAndFunc : MonoBehaviour {
 
 	Buck = 4.5f;
 	print("How old is Buck");
-
+	print(Buck);
+	
 	}
 	
 	// Update is called once per frame
