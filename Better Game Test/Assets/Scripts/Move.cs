@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterMove : MonoBehaviour {
+public class Move : MonoBehaviour {
 
 	// Player Movement Variables
 	public int MoveSpeed;
