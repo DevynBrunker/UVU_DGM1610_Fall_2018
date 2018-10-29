@@ -10,27 +10,27 @@ public class CharaterSwitch : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		GetComponent<Will>();
-		GetComponent<Liz>();
-		GetComponent<Lucy>();
+		Will = GameObject.Find("Will");
+		Liz = GameObject.Find("Liz");
+		Lucy = GameObject.Find("Lucy");
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown (KeyCode.I)){
-			Will.enable = true;
-			Liz.enable = false;
-			Lucy.enbale = false;
+			Will = true;
+			Liz = false;
+			Lucy = false;
 		}
 		if(Input.GetKeyDown (KeyCode.O)){
-			Will.enable = false;
-			Liz.enable = true;
-			Lucy.enbale = false;
+			Will = false;
+			Liz = true;
+			Lucy = false;
 		}
 		if(Input.GetKeyDown (KeyCode.P)){
-			Will.enable = false;
-			Liz.enable = false;
-			Lucy.enbale = true;
+			Will = false;
+			Liz = false;
+			Lucy = true;
 		}
 	}
 }
