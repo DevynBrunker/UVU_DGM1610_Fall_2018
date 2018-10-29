@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 137391676}
   - component: {fileID: 137391675}
   - component: {fileID: 137391681}
+  - component: {fileID: 137391682}
   m_Layer: 0
   m_Name: TestForScript
   m_TagString: Untagged
@@ -239,6 +240,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+--- !u!114 &137391682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 137391674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1991bcaeaf96a1346aaad02ebf4fae1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num: 0
 --- !u!1 &189350753
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,7 +392,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.54509807, g: 0.27058825, b: 0.07450981, a: 0}
+  m_Color: {r: 0.54509807, g: 0.27058825, b: 0.07450981, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6390,7 +6403,7 @@ SpriteRenderer:
   m_Size: {x: 3.2, y: 1.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1796284129
@@ -6646,7 +6659,7 @@ GameObject:
   m_Layer: 0
   m_Name: FirePoint
   m_TagString: Untagged
-  m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
