@@ -18,6 +18,7 @@ public class Loops : MonoBehaviour {
 	private int num;
 	private int life = 99;
 	private int add;
+	public int regeneration;
 
 	// Use this for initialization
 	void Start () {
@@ -52,11 +53,14 @@ public class Loops : MonoBehaviour {
 			}
 		}
 
-		// if(!E){
-		// 	while(){
-
-		// 	}
-		// }
+		if(!E){
+			while( regeneration <= 100){
+				regeneration = regeneration + 10;
+				if(regeneration == 100){
+					print("You Have Max Health");
+				}
+			}
+		}
 
 		// if(!F){
 		// 	while(){
