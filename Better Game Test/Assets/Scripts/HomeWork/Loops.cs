@@ -15,8 +15,9 @@ public class Loops : MonoBehaviour {
 	public bool F;
 
 	//Variables
-	public int num;
+	private int num;
 	private int life = 99;
+	private int add;
 
 	// Use this for initialization
 	void Start () {
@@ -37,29 +38,30 @@ public class Loops : MonoBehaviour {
 			}
 		}
 
-		if(!C){
-			for(){
+		// if(!C){
+		// 	for(){
 
-			}
-		}
+		// 	}
+		// }
 
 		//While Loops
 		if(!D){
-			while(){
-
+			while( add <= 9){
+				add = add + 1;
+				print(add);
 			}
 		}
 
-		if(!E){
-			while(){
+		// if(!E){
+		// 	while(){
 
-			}
-		}
+		// 	}
+		// }
 
-		if(!F){
-			while(){
+		// if(!F){
+		// 	while(){
 
-			}
-		}
+		// 	}
+		// }
 	}
 }
