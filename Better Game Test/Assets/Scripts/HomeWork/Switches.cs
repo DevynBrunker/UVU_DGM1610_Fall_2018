@@ -48,14 +48,14 @@ public class Switches : MonoBehaviour {
 			break;
 			case "Twix":
 				print("Left Or Right Side");
-					switch("Twix"){
-						case "Left":
-							print("b");
-						break;
-						case "Right":
-							print("a");
-						break;
-					}
+					// switch("Twix"){
+					// 	case "Left":
+					// 		print("Smooth");
+					// 	break;
+					// 	case "Right":
+					// 		print("Flow");
+					// 	break;
+					// }
 			break;
 			case "Snickers":
 				print("You aren't Yourself When You Are Hungry");
