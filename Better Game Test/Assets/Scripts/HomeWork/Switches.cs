@@ -6,7 +6,7 @@ public class Switches : MonoBehaviour {
 
 	public int num;
 	public string name;
-	public 
+	public string snacks;
 
 	void Start () {
 		// switch(num){
@@ -42,21 +42,29 @@ public class Switches : MonoBehaviour {
 		// 	break;
 		// }
 
-		switch(){
-			case "":
-				print("");
+		switch(snacks){
+			case "KitKat":
+				print("Break Me Off A Piece Of That KitKat Bar");
 			break;
-			case "":
-				print("");
+			case "Twix":
+				print("Left Or Right Side");
+					switch("Twix"){
+						case "Left":
+							print("b");
+						break;
+						case "Right":
+							print("a");
+						break;
+					}
 			break;
-			case "":
-				print("");
+			case "Snickers":
+				print("You aren't Yourself When You Are Hungry");
 			break;
-			case "":
-				print("");
+			case "Skittles":
+				print("Taste The Rainbow");
 			break;
 			default:
-				print("I thought you would be smarter then that");
+				print("ERROR");
 			break;
 		}
 
