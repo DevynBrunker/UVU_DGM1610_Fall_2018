@@ -39,11 +39,11 @@ public class Loops : MonoBehaviour {
 			}
 		}
 
-		// if(!C){
-		// 	for(){
-
-		// 	}
-		// }
+		if(!C){
+			for(int n = 1; n <= 50; n = n + 3){
+				print(n);
+			}
+		}
 
 		//While Loops
 		if(!D){
