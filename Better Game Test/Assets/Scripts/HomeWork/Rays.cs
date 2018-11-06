@@ -58,4 +58,4 @@ public class Rays : MonoBehaviour {
 
 // 5 arrays
 // 5 foreach
-// make a loop to populate an array
+// make a loop to do a for each loop

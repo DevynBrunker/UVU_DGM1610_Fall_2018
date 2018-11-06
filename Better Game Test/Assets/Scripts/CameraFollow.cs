@@ -20,7 +20,7 @@ public class CameraFollow : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(isFollowing){
-			transform.postion = new Vector3(PC.transform.postion.x + xOffset, PC.transform.postion.y + yOffset, transform.postion.z);
+			transform.position = new Vector3(PC.transform.position.x + xOffset, PC.transform.position.y + yOffset, transform.position.z);
 		}
 	}
 }
