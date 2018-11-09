@@ -6,6 +6,7 @@ public class Rays : MonoBehaviour {
 
 	public int[] Eggs = new int[12];
 	public string[] StarWars;
+	public float[] Num = new float[6];
 
 	public bool A;
 	public bool B;
@@ -46,6 +47,17 @@ public class Rays : MonoBehaviour {
 				print("Jedi Master " + item);
 			}
 
+		}
+
+		if(!C){
+			Num[0] = 3.2f;
+			Num[1] = 4.1f;
+			Num[2] = .7f;
+			Num[3] = 8.0f;
+			Num[4] = 6.9f;
+			Num[5] = 5.5f;
+
+			print(Num[2] + Num[4])
 		}
 
 	}
