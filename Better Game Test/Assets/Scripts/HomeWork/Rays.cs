@@ -58,18 +58,25 @@ public class Rays : MonoBehaviour {
 			Num[4] = 6.9f;
 			Num[5] = 5.5f;
 
-			print(Num[2] + Num[4]);
+			foreach(float item in Num){
+				print(item + item);
+			}
+				
 		}
 
 		if(!D){
+			//when using arrays with char, you need to stick with 1 letter 
 			Test = new char[4];
 
-			Test[0] = 'Will';
-			Test[1] = 'Liz';
-			Test[2] = 'Lucy';
-			Test[3] = 'Devyn';
+			Test[0] = 'a';
+			Test[1] = 'b';
+			Test[2] = 'c';
+			Test[3] = 'd';
 
-			print("You Are Now " + Test[2]);
+			foreach(char item in Test){
+				print("You Are Now " + item);
+			}
+			
 		}
 	}
 	
