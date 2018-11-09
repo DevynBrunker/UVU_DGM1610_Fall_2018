@@ -7,6 +7,7 @@ public class Rays : MonoBehaviour {
 	public int[] Eggs = new int[12];
 	public string[] StarWars;
 	public float[] Num = new float[6];
+	public char[] Test;
 
 	public bool A;
 	public bool B;
@@ -57,9 +58,19 @@ public class Rays : MonoBehaviour {
 			Num[4] = 6.9f;
 			Num[5] = 5.5f;
 
-			print(Num[2] + Num[4])
+			print(Num[2] + Num[4]);
 		}
 
+		if(!D){
+			Test = new char[4];
+
+			Test[0] = 'a';
+			Test[1] = 'b';
+			Test[2] = 'c';
+			Test[3] = 'd';
+
+			print(Test[2]);
+		}
 	}
 	
 	// Update is called once per frame
