@@ -64,12 +64,12 @@ public class Rays : MonoBehaviour {
 		if(!D){
 			Test = new char[4];
 
-			Test[0] = 'a';
-			Test[1] = 'b';
-			Test[2] = 'c';
-			Test[3] = 'd';
+			Test[0] = 'Will';
+			Test[1] = 'Liz';
+			Test[2] = 'Lucy';
+			Test[3] = 'Devyn';
 
-			print(Test[2]);
+			print("You Are Now " + Test[2]);
 		}
 	}
 	
