@@ -5333,17 +5333,26 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 196133672}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbc85921e4a4da84a8dfb9e1d88d7cfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Eggs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   StarWars: []
+  Num:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  Test: 
+  TF: 00000000
   A: 1
   B: 1
   C: 0
-  D: 0
+  D: 1
   E: 0
 --- !u!114 &196133678
 MonoBehaviour:

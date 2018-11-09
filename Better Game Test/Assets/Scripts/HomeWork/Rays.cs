@@ -8,6 +8,7 @@ public class Rays : MonoBehaviour {
 	public string[] StarWars;
 	public float[] Num = new float[6];
 	public char[] Test;
+	public bool[] TF = new bool[4];
 
 	public bool A;
 	public bool B;
@@ -59,6 +60,7 @@ public class Rays : MonoBehaviour {
 			Num[5] = 5.5f;
 
 			foreach(float item in Num){
+				//doing item + item is making the nums double
 				print(item + item);
 			}
 				
@@ -76,7 +78,15 @@ public class Rays : MonoBehaviour {
 			foreach(char item in Test){
 				print("You Are Now " + item);
 			}
-			
+		}
+
+		if(!E){
+			TF[0] = true;
+			TF[1] = false;
+			TF[2] = false;
+			TF[3] = true;
+
+			//print(Random.Range(item)):
 		}
 	}
 	
@@ -88,4 +98,3 @@ public class Rays : MonoBehaviour {
 
 // 5 arrays
 // 5 foreach
-// make a loop to do a for each loop
