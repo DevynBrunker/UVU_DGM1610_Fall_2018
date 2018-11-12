@@ -16,7 +16,7 @@ public class Loops : MonoBehaviour {
 
 	//Variables
 	private int num;
-	private int life = 99;
+	public int life;
 	private int add;
 	public int regeneration;
 
