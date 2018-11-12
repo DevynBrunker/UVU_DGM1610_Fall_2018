@@ -24,7 +24,7 @@ public class Projectile : MonoBehaviour {
 			Speed = -Speed;
 		}
 
-		Destroy(gameObject,TimeOut);
+		Destroy(gameObject, TimeOut);
 	}
 	
 	// Update is called once per frame
@@ -42,8 +42,8 @@ public class Projectile : MonoBehaviour {
 		Destroy (gameObject);
 	}
 
-	void OnCollisionEnter2D(Collision2D other){
-		Instantiate(ProjectileParticle, transform.position, transform.rotation);
-		Destroy (gameObject);
-	}
+	// void OnCollisionEnter2D(Collision2D other){
+	// 	Instantiate(ProjectileParticle, transform.position, transform.rotation);
+	// 	Destroy (gameObject);
+	// }
 }
