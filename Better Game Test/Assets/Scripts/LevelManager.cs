@@ -24,6 +24,8 @@ public class LevelManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		
+
 		// Player = FindObjectOfType<Rigid2D> ();
 	}
 	
