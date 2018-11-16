@@ -8357,6 +8357,15 @@ Prefab:
       propertyPath: TimeOut
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1284075625458066, guid: 38367d993306d67459203da7dd3f7b1f, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114723468413366624, guid: 38367d993306d67459203da7dd3f7b1f,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38367d993306d67459203da7dd3f7b1f, type: 2}
   m_IsPrefabAsset: 0
@@ -10488,6 +10497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a3f164d2926cc429cb2ca72a9ae1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Will: {fileID: 1613600324}
 --- !u!1 &1944452849
 GameObject:
   m_ObjectHideFlags: 0

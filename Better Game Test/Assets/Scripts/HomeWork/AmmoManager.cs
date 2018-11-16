@@ -7,6 +7,8 @@ public class AmmoManager : MonoBehaviour {
 	public static int Ammo;
 	Text AmmoText;
 
+	public GameObject Will;
+
 	// Use this for initialization
 	void Start () {
 		AmmoText = GetComponent<Text>();
@@ -17,6 +19,7 @@ public class AmmoManager : MonoBehaviour {
 	void Update () {
 		if (Ammo < 0){
 			Ammo = 0;
+			Will.GetComponent<Shoot>().enabled = false;
 		}
 		AmmoText.text = " " + Ammo;
 
