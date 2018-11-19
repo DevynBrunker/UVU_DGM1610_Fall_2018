@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class AmmoPickUp : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	public int AmmoToAdd;
+
+	void OnTriggerEnter2D (Collider2D Other){
+		if (Other.GetComponent<Rigidbody2D> () == null)
+			return;
 		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+		AmmoManager.AddAmmo (AmmoToAdd);
+
+		Destroy (gameObject);
 	}
 }
