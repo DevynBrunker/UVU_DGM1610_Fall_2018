@@ -17,6 +17,10 @@ public class HealthManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		// if(){
+		// 	Health = Health - 1;
+		// }
+
 		if(Health <= 0){
 			Health = 0;
 			print("Game Over");

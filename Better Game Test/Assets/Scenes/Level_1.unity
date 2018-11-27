@@ -526,8 +526,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentCheckPoint: {fileID: 221880154}
   Player: {fileID: 1613600327}
-  Player2: {fileID: 1613600324}
-  DeathParticle: {fileID: 178172461}
+  PC2: {fileID: 1613600324}
+  DeathParticle: {fileID: 1662210695}
   RespawnParticle: {fileID: 1662210695}
   RespawnDelay: 1
   PointPenaltyOnDeath: 1
@@ -6269,7 +6269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b08a1669f8fb547b907749fe7158d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Will: {fileID: 0}
+  Will: {fileID: 1613600324}
 --- !u!1 &579565210
 GameObject:
   m_ObjectHideFlags: 0
@@ -10139,7 +10139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c326d7ec6370214a9e12e64dfd62de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelManager: {fileID: 0}
+  LevelManager: {fileID: 67663119}
 --- !u!1 &1829592832
 GameObject:
   m_ObjectHideFlags: 0
@@ -10757,6 +10757,10 @@ Prefab:
     - target: {fileID: 4798805722995802, guid: 7ac96659016ece840a936a3b7dbb5e31, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494711590156718, guid: 7ac96659016ece840a936a3b7dbb5e31, type: 2}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ac96659016ece840a936a3b7dbb5e31, type: 2}

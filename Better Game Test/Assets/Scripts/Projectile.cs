@@ -17,7 +17,7 @@ public class Projectile : MonoBehaviour {
 	void Start () {
 		PC = GameObject.Find("Will");
 
-		EnemyDeath = Resources.Load("Prefab/RespawnPartical") as GameObject;
+		EnemyDeath = Resources.Load("Prefab/DeathPartical") as GameObject;
 		ProjectileParticle = Resources.Load("Prefab/RespawnPartical") as GameObject;
 
 		if(PC.transform.localScale.x < 0){
