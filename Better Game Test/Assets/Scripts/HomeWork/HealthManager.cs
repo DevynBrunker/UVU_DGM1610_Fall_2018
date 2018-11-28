@@ -17,9 +17,6 @@ public class HealthManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		// if(gameObject.activeSelf){
-		// 	Health = Health - 1;
-		// }
 
 		if(Health <= 0){
 			Health = 0;
