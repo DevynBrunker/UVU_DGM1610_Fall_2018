@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour {
 
@@ -10,6 +11,10 @@ public class ScoreManager : MonoBehaviour {
 	public Text WinText;
 
 	Text ScoreText;
+
+	void Awak(){
+		Time.timeScale = 1;
+	}
 
 	// Use this for initialization
 	void Start () {
