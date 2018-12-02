@@ -21,9 +21,13 @@ public class AmmoManager : MonoBehaviour {
 			Ammo = 0;
 			Will.GetComponent<Shoot>().enabled = false;
 		}
-	
 		if(Ammo >= 1){
 			Will.GetComponent<Shoot>().enabled = true;
+		}
+
+		//Ammo Cap
+		if( Ammo >= 30){
+			Ammo = 30;
 		}
 
 		if(Input.GetKeyDown(KeyCode.RightControl)){
