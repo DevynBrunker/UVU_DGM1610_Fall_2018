@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class RandomDrop : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	//This allows me to make an Aray or List with things inside it
+	public class DropTable{
+		public string Name;
+		public GameObject Item;
+		public int Chance;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	//My List
+	public List <DropTable> Table = new List <DropTable>(); 
+	public int DropChance;
+
+	void Loot(){
+		int RandomChance = Random.Range (0, 101);
+
+		if(RandomChance <= DropChance){
+			
+		}
 	}
 }
