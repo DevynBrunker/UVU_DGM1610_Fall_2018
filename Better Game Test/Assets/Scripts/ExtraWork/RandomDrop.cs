@@ -17,13 +17,15 @@ public class RandomDrop : MonoBehaviour {
 	public int DropChance;
 
 	public void Loot(){
-		
+		print("Running loot");
 		//This is the drop chance for the enemy
-		int RandomChance = Random.Range (0, 101);
+		int RandomChance = Random.Range (0, 2);
+
 
 		if(RandomChance <= DropChance){
 			int ItemNumber = 0;
-			
+
+			print("picking item" + RandomChance);	
 			for (int i = 0; i < LootTable.Count; i++){
 				ItemNumber += LootTable [i].Chance;
 			}
@@ -31,6 +33,7 @@ public class RandomDrop : MonoBehaviour {
 			int RandomValue = Random.Range (0, ItemNumber);
 			for (int j = 0; j < LootTable.Count; j++){
 				if(RandomValue <= LootTable [j].Chance){
+					print("dropping item");
 					Instantiate(LootTable[j].Item, transform.position, Quaternion.identity);
 					return;
 				}

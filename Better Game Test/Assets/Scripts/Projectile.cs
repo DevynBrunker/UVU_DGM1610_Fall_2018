@@ -13,6 +13,8 @@ public class Projectile : MonoBehaviour {
 	public int PointsForKill;
 	public int TimeOut;
 
+	
+
 	// Use this for initialization
 	void Start () {
 		PC = GameObject.Find("Will");
@@ -25,6 +27,7 @@ public class Projectile : MonoBehaviour {
 		}
 
 		Destroy(gameObject, TimeOut);
+
 	}
 	
 	// Update is called once per frame
@@ -37,6 +40,8 @@ public class Projectile : MonoBehaviour {
 			Instantiate(EnemyDeath, other.transform.position, transform.rotation);
 			Destroy (other.gameObject);
 			ScoreManager.AddPoints (PointsForKill);
+
+			other.GetComponent<RandomDrop>().Loot();
 		}
 		
 		Destroy (gameObject);
