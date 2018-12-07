@@ -27,11 +27,11 @@ public class EnemyMove : MonoBehaviour {
 			MoveRight = !MoveRight; //!Right makes it go left
 		}
 		if (MoveRight){
-			transform.localScale = new Vector3(-10f, 10f, 1f); //flips the sprite
+			transform.localScale = new Vector3(-.27f, .27f, 1f); //flips the sprite
 			GetComponent<Rigidbody2D>().velocity = new Vector2(MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 		}
 		else{
-			transform.localScale = new Vector3 (10f, 10f, 10f);
+			transform.localScale = new Vector3 (.27f, .27f, 1f);
 			GetComponent<Rigidbody2D>().velocity = new Vector2(-MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 		}
 	}
