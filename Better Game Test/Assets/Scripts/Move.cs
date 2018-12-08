@@ -63,11 +63,11 @@ public class Move : MonoBehaviour {
 		GetComponent<Rigidbody2D>().velocity = new Vector2(MoveVelocity, GetComponent<Rigidbody2D>().velocity.y);
 
 		if (GetComponent<Rigidbody2D>().velocity.x > 0){
-		transform.localScale = new Vector3(10, 10, 1);		
+		transform.localScale = new Vector3(.25f, .25f, 1f);		
 		}
 
 		else if (GetComponent<Rigidbody2D>().velocity.x < 0){
-		transform.localScale = new Vector3(-10, 10, 1);		
+		transform.localScale = new Vector3(-.25f, .25f, 1f);		
 		}
 
 	
