@@ -20,7 +20,6 @@ public class HealthManager : MonoBehaviour {
 
 		if(Health <= 0){
 			Health = 0;
-			print("Game Over");
 		}
 
 		if(Health >= 5){
