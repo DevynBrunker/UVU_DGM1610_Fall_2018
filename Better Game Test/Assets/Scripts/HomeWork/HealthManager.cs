@@ -4,15 +4,24 @@ using System.Collections;
 
 public class HealthManager : MonoBehaviour {
 
-	public static int Health;
+	public static int Health = 3;
 	Text HealthText;
 
 	public GameObject Will;
 
+	public Text LoseText;
+
+	Text YouLose;
+
+	void Awak(){
+		Time.timeScale = 1;
+	}
+
 	// Use this for initialization
 	void Start () {
 		HealthText = GetComponent<Text>();
-		Health = 3;
+
+		LoseText.GetComponent<Text>().enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -27,6 +36,12 @@ public class HealthManager : MonoBehaviour {
 		}
 
 		HealthText.text = " " + Health;
+
+		if(Health <= 0){
+			print("You Lose");
+			LoseText.GetComponent<Text>().enabled = true;
+			Will.GetComponent<Move>().enabled = false;
+		}
 	}
 
 	public static void AddHealth (int HealthToAdd){
